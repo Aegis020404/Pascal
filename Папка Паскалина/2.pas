@@ -1,0 +1,30 @@
+﻿Program Квадратное_уравнение;
+var a,b,c,d,y,y1,y2,y3,y4:real;
+begin
+  writeln('Введите "a="');
+  readln(a);
+  writeln('Введите "c="');
+  readln(c);
+  writeln('Введите "d="');
+  readln(d);
+  y1:=(10*a+10*b)/a+b+10*sqr(a)+ exp(b*LN(3))+ c/(d+sqr(d));
+  y2:=(sqr(a)+sqr(b))/(sqr(a)-sqr(b))+(11*a+b)/(a+b)+(a+b)/a-b;
+  y3:=(c+d)/(c-d);
+  y4:=c+10*d;
+  y:=y1/y2/y3/y4;
+  y:=123456789.123456789;
+  writeln('Выражение = ', y:3:1);
+  writeln('Выражение = ', y:4:2);
+  writeln('Выражение = ', y:5:3);
+  writeln('Выражение = ', y:6:4);
+  writeln('Выражение = ', y:7:5);
+  writeln('Выражение = ', y:8:6);
+  writeln('Выражение = ', y:9:7);
+  writeln('Выражение = ', y:10:8);
+  writeln('Выражение = ', y:11:9);
+  writeln('Выражение = ', y:12:10);
+  writeln('Выражение = ', y:13:11);
+  writeln('Выражение = ', y:14:12);
+  writeln('Выражение = ', y:15:13);
+  writeln('Выражение = ', y:16:14);
+end.
